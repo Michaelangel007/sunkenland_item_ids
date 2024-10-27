@@ -1,4 +1,4 @@
-| v0.5| Name                                                         |Max|Type        |Price|
+|0.5.11|Name                                                         |Max|Type        |Price|
 |----:|:-------------------------------------------------------------|--:|:-----------|----:|
 |    1|Silver Coins                                                  |100|Goods       | $100|
 |    2|TradeContractItem                                             |  1|Items       |   $1|
