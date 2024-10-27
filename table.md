@@ -74,7 +74,7 @@
 | 3005|Antibiotics                                                   | 20|Meds        | $200|
 | 3006|Baked Beans                                                   | 20|Food        |  $50|
 | 3007|Candy Bar                                                     | 20|Food        |  $10|
-| 3008|Herbal Energy Drink                                           | 20|Temp        |  $50|
+| 3008|Energy Drink                                                  | 20|Food        |  $50|
 | 3009|Food Can                                                      | 20|Food        |  $45|
 | 3010|Instant Ramen                                                 | 20|Food        |  $15|
 | 3011|Pudding                                                       | 20|Food        |  $10|
@@ -452,6 +452,7 @@
 |15051|Blueprint Wallpaper (Green)                                   |200|Blueprint   | $100|
 |15052|Blueprint Wallpaper (Yellow)                                  |200|Blueprint   | $100|
 |15054|Blueprint Jetstream Bowrider                                  |200|Blueprint   | $100|
+|15055|Blueprint Military Backpack                                   |200|Blueprint   | $100|
 |15057|Blueprint Large Generator                                     |200|Blueprint   | $100|
 |15058|Blueprint Military Grenade                                    |200|Blueprint   | $100|
 |15059|Blueprint Leather Suitcase                                    |200|Blueprint   | $100|
@@ -483,6 +484,7 @@
 |15118|Blueprint Fishpond                                            |200|Blueprint   | $100|
 |15119|Blueprint Anti-infantry mines                                 |200|Blueprint   | $100|
 |15120|Blueprint Underwater planting pot                             |200|Blueprint   | $100|
+|15121|Blueprint Masonry                                             |200|Blueprint   | $100|
 |16001|Blueprint double-barreled scrap iron casing                   |200|Blueprint   |  $60|
 |16002|Blueprint double-barreled fine iron receiver                  |200|Blueprint   | $100|
 |16003|Blueprint capitalist times's scrap iron barrel                |200|Damaged BP  | $100|
@@ -711,6 +713,34 @@
 |22094|Wanghai Reef                                                  |  5|Decoration  | $100|
 |22095|Weighing Scale                                                |  5|Decoration  | $100|
 |22096|Wooden Chair                                                  |  5|Decoration  | $150|
+|22097|Ballons Halloween                                             |  5|Decoration  | $300|
+|22098|Ballons Happy                                                 |  5|Decoration  | $300|
+|22099|Black Cat Statue                                              |  5|Decoration  |$2500|
+|22100|Broken Tombstone                                              |  5|Decoration  |$1000|
+|22101|Candles                                                       |  5|Decoration  | $100|
+|22102|Coffin                                                        |  5|Decoration  |$1000|
+|22103|Creepy Hand                                                   |  5|Decoration  |$1000|
+|22104|Death Statue                                                  |  5|Decoration  |$2500|
+|22105|Dragon Statue                                                 |  5|Decoration  |$2500|
+|22106|Goest Decor                                                   |  5|Decoration  |$2500|
+|22107|HauntedHalloween                                              |  5|Decoration  |$1000|
+|22108|Large Spider                                                  |  5|Decoration  | $500|
+|22109|Neon Ghost                                                    |  5|Decoration  | $500|
+|22110|Neon Pumpkin                                                  |  5|Decoration  | $500|
+|22111|Old Candle Holder                                             |  5|Decoration  |$1500|
+|22112|Pumpkin Dead                                                  |  5|Decoration  | $500|
+|22113|Pumpkin Evil                                                  |  5|Decoration  | $500|
+|22114|Pumpkin Grin                                                  |  5|Decoration  | $500|
+|22115|Pumpkin Malice                                                |  5|Decoration  | $500|
+|22116|Pumpkin Round                                                 |  5|Decoration  | $500|
+|22117|Pumpkin Sad                                                   |  5|Decoration  | $500|
+|22118|Pumpkin Short                                                 |  5|Decoration  | $500|
+|22119|Pumpkin Tall                                                  |  5|Decoration  | $500|
+|22120|Small Spider                                                  |  5|Decoration  | $500|
+|22121|Square Tombstone                                              |  5|Decoration  |$1500|
+|22122|Vampire Statue                                                |  5|Decoration  |$2500|
+|22123|Voodoo Doll                                                   |  5|Decoration  | $500|
+|22124|Witch Cauldron                                                |  5|Decoration  |$1000|
 |24001|double-pipe scrap iron casing                                 |100|Weapon      |  $60|
 |24002|double-barreled fine iron receiver                            |100|Weapon      | $100|
 |24003|capitalist times's scrap iron barrel                          |100|Damaged BP  | $100|

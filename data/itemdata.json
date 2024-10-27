@@ -1037,7 +1037,7 @@
   },
   {
     "ID": 3008,
-    "ResourceName": "Assets/Prefabs/Temp/Temp/B1_Herbal Energy Drink.prefab",
+    "ResourceName": "Assets/Resources/Items/Food/Modern Food/Energy Drink.prefab",
     "StackaMount": 20,
     "Price": 50,
     "RecoveryPrice": 0,
@@ -6623,7 +6623,7 @@
   },
   {
     "ID": 15055,
-    "ResourceName": "",
+    "ResourceName": "Assets/Resources/Items/Blueprints/4/Blueprint Military Backpack.prefab",
     "StackaMount": 200,
     "Price": 100,
     "RecoveryPrice": 25,
@@ -7534,6 +7534,20 @@
   {
     "ID": 15120,
     "ResourceName": "Assets/Resources/Items/Blueprints/2/Blueprint Underwater planting pot.prefab",
+    "StackaMount": 200,
+    "Price": 100,
+    "RecoveryPrice": 25,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 0,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 15121,
+    "ResourceName": "Assets/Resources/Items/Blueprints/Temp/Blueprint Masonry.prefab",
     "StackaMount": 200,
     "Price": 100,
     "RecoveryPrice": 25,
@@ -10746,6 +10760,398 @@
     "InventionPrice": 0,
     "recyclingDrops": 0,
     "toCopper": 2,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22097,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Ballons Halloween.prefab",
+    "StackaMount": 5,
+    "Price": 300,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 3,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22098,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Ballons Happy.prefab",
+    "StackaMount": 5,
+    "Price": 300,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 3,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22099,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Black Cat Statue.prefab",
+    "StackaMount": 5,
+    "Price": 2500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 25,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22100,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Broken Tombstone.prefab",
+    "StackaMount": 5,
+    "Price": 1000,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22101,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Candles.prefab",
+    "StackaMount": 5,
+    "Price": 100,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 1,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22102,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Coffin.prefab",
+    "StackaMount": 5,
+    "Price": 1000,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 10,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22103,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Creepy Hand.prefab",
+    "StackaMount": 5,
+    "Price": 1000,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 10,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22104,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Death Statue.prefab",
+    "StackaMount": 5,
+    "Price": 2500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 25,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22105,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Dragon Statue.prefab",
+    "StackaMount": 5,
+    "Price": 2500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 50,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22106,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Goest Decor.prefab",
+    "StackaMount": 5,
+    "Price": 2500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 25,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22107,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/HauntedHalloween.prefab",
+    "StackaMount": 5,
+    "Price": 1000,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 50,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22108,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Large Spider.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 10,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22109,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Neon Ghost.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22110,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Neon Pumpkin.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22111,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Old Candle Holder.prefab",
+    "StackaMount": 5,
+    "Price": 1500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 15,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22112,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Dead.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22113,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Evil.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22114,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Grin.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22115,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Malice.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22116,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Round.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22117,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Sad.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22118,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Short.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22119,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Tall.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22120,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Small Spider.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22121,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Square Tombstone.prefab",
+    "StackaMount": 5,
+    "Price": 1500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22122,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Vampire Statue.prefab",
+    "StackaMount": 5,
+    "Price": 2500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 25,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22123,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Voodoo Doll.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22124,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Witch Cauldron.prefab",
+    "StackaMount": 5,
+    "Price": 1000,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 10,
     "ItemType": [
       0
     ],

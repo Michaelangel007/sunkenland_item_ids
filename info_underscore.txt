@@ -29,7 +29,6 @@ INFO: Item 3001 has _ at offset 3.
 INFO: Item 3002 has _ at offset 3.
 INFO: Item 3003 has _ at offset 3.
 INFO: Item 3004 has _ at offset 3.
-INFO: Item 3008 has _ at offset 3.
 INFO: Item 3014 has _ at offset 3.
 INFO: Item 3015 has _ at offset 3.
 INFO: Item 3016 has _ at offset 3.
