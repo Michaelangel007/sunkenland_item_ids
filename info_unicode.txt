@@ -1,0 +1,14 @@
+WARN: Item 16003 has Unicode 0xFFFFFFE2 at offset 26.
+WARN: Item 16004 has Unicode 0xFFFFFFE2 at offset 26.
+WARN: Item 16009 has Unicode 0xFFFFFFE2 at offset 42.
+WARN: Item 16010 has Unicode 0xFFFFFFE2 at offset 41.
+WARN: Item 16011 has Unicode 0xFFFFFFE2 at offset 47.
+WARN: Item 16037 has Unicode 0xFFFFFFE2 at offset 26.
+WARN: Item 16038 has Unicode 0xFFFFFFE2 at offset 26.
+WARN: Item 24003 has Unicode 0xFFFFFFE2 at offset 16.
+WARN: Item 24004 has Unicode 0xFFFFFFE2 at offset 16.
+WARN: Item 24009 has Unicode 0xFFFFFFE2 at offset 32.
+WARN: Item 24010 has Unicode 0xFFFFFFE2 at offset 31.
+WARN: Item 24011 has Unicode 0xFFFFFFE2 at offset 37.
+WARN: Item 24037 has Unicode 0xFFFFFFE2 at offset 16.
+WARN: Item 24038 has Unicode 0xFFFFFFE2 at offset 16.
