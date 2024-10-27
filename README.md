@@ -17,7 +17,7 @@
 
 Item ID table for 0.5.11.
 
-Version 0.2 changed all the Item IDs. I found this older [0.1.51 to 0.2 conversion]([0.1.5.1 to 0.2 conversion](https://preview.redd.it/new-id-list-on-version-0-2-0-v0-8jynmk0hliec1.png?width=580&format=png&auto=webp&s=242a14aeb4506555cde9793a2edb4299d1fd585d) graphic table but it has a few problems:
+Version 0.2 changed all the Item IDs. I found this older [0.1.51 to 0.2 conversion](https://preview.redd.it/new-id-list-on-version-0-2-0-v0-8jynmk0hliec1.png?width=580&format=png&auto=webp&s=242a14aeb4506555cde9793a2edb4299d1fd585d) graphic table but it has a few problems:
 
 * It is incomplete/out-of-date. i.e. missing all the Blueprints in 16001-16124,
 * It isn't in text format which means you can't sort it by ID, Name, etc.
