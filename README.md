@@ -7,7 +7,7 @@
 ## Windows
 
 * **Characters** can be found in `%localappdata%low\Vector3 Studio\Sunkenland\Characters\`
-* **World can be found in: `%localappdata%Low\Vector3 Studio\Sunkenland\Worlds\`
+* **World** can be found in: `%localappdata%Low\Vector3 Studio\Sunkenland\Worlds\`
 
 ## Linux
 
