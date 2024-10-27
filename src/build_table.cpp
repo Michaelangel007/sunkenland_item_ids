@@ -564,7 +564,7 @@ int main( int nArg, char *aArg[] )
 
 	if (!gbQuiet)
 	{
-		printf( "| v0.5| Name                                                         |Max|Type        |Price|\n" );
+		printf( "|0.5.11|Name                                                         |Max|Type        |Price|\n" );
 		printf( "|----:|:-------------------------------------------------------------|--:|:-----------|----:|\n" );
 	}
 
