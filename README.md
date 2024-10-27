@@ -15,6 +15,8 @@
 
 # Sunkenland Item IDs
 
+Item ID table for 0.5.11.
+
 Version 0.2 changed all the Item IDs. I found this older [0.1.51 to 0.2 conversion]([0.1.5.1 to 0.2 conversion](https://preview.redd.it/new-id-list-on-version-0-2-0-v0-8jynmk0hliec1.png?width=580&format=png&auto=webp&s=242a14aeb4506555cde9793a2edb4299d1fd585d) graphic table but it has a few problems:
 
 * It is incomplete/out-of-date. i.e. missing all the Blueprints in 16001-16124,
@@ -103,7 +105,7 @@ There are a total items = 16049; stripping off the path in the resource name the
 | 3005|Antibiotics                                                   | 20|Meds        | $200|
 | 3006|Baked Beans                                                   | 20|Food        |  $50|
 | 3007|Candy Bar                                                     | 20|Food        |  $10|
-| 3008|Herbal Energy Drink                                           | 20|Temp        |  $50|
+| 3008|Energy Drink                                                  | 20|Food        |  $50|
 | 3009|Food Can                                                      | 20|Food        |  $45|
 | 3010|Instant Ramen                                                 | 20|Food        |  $15|
 | 3011|Pudding                                                       | 20|Food        |  $10|
@@ -481,6 +483,7 @@ There are a total items = 16049; stripping off the path in the resource name the
 |15051|Blueprint Wallpaper (Green)                                   |200|Blueprint   | $100|
 |15052|Blueprint Wallpaper (Yellow)                                  |200|Blueprint   | $100|
 |15054|Blueprint Jetstream Bowrider                                  |200|Blueprint   | $100|
+|15055|Blueprint Military Backpack                                   |200|Blueprint   | $100|
 |15057|Blueprint Large Generator                                     |200|Blueprint   | $100|
 |15058|Blueprint Military Grenade                                    |200|Blueprint   | $100|
 |15059|Blueprint Leather Suitcase                                    |200|Blueprint   | $100|
@@ -512,6 +515,7 @@ There are a total items = 16049; stripping off the path in the resource name the
 |15118|Blueprint Fishpond                                            |200|Blueprint   | $100|
 |15119|Blueprint Anti-infantry mines                                 |200|Blueprint   | $100|
 |15120|Blueprint Underwater planting pot                             |200|Blueprint   | $100|
+|15121|Blueprint Masonry                                             |200|Blueprint   | $100|
 |16001|Blueprint double-barreled scrap iron casing                   |200|Blueprint   |  $60|
 |16002|Blueprint double-barreled fine iron receiver                  |200|Blueprint   | $100|
 |16003|Blueprint capitalist times's scrap iron barrel                |200|Damaged BP  | $100|
@@ -740,6 +744,34 @@ There are a total items = 16049; stripping off the path in the resource name the
 |22094|Wanghai Reef                                                  |  5|Decoration  | $100|
 |22095|Weighing Scale                                                |  5|Decoration  | $100|
 |22096|Wooden Chair                                                  |  5|Decoration  | $150|
+|22097|Ballons Halloween                                             |  5|Decoration  | $300|
+|22098|Ballons Happy                                                 |  5|Decoration  | $300|
+|22099|Black Cat Statue                                              |  5|Decoration  |$2500|
+|22100|Broken Tombstone                                              |  5|Decoration  |$1000|
+|22101|Candles                                                       |  5|Decoration  | $100|
+|22102|Coffin                                                        |  5|Decoration  |$1000|
+|22103|Creepy Hand                                                   |  5|Decoration  |$1000|
+|22104|Death Statue                                                  |  5|Decoration  |$2500|
+|22105|Dragon Statue                                                 |  5|Decoration  |$2500|
+|22106|Goest Decor                                                   |  5|Decoration  |$2500|
+|22107|HauntedHalloween                                              |  5|Decoration  |$1000|
+|22108|Large Spider                                                  |  5|Decoration  | $500|
+|22109|Neon Ghost                                                    |  5|Decoration  | $500|
+|22110|Neon Pumpkin                                                  |  5|Decoration  | $500|
+|22111|Old Candle Holder                                             |  5|Decoration  |$1500|
+|22112|Pumpkin Dead                                                  |  5|Decoration  | $500|
+|22113|Pumpkin Evil                                                  |  5|Decoration  | $500|
+|22114|Pumpkin Grin                                                  |  5|Decoration  | $500|
+|22115|Pumpkin Malice                                                |  5|Decoration  | $500|
+|22116|Pumpkin Round                                                 |  5|Decoration  | $500|
+|22117|Pumpkin Sad                                                   |  5|Decoration  | $500|
+|22118|Pumpkin Short                                                 |  5|Decoration  | $500|
+|22119|Pumpkin Tall                                                  |  5|Decoration  | $500|
+|22120|Small Spider                                                  |  5|Decoration  | $500|
+|22121|Square Tombstone                                              |  5|Decoration  |$1500|
+|22122|Vampire Statue                                                |  5|Decoration  |$2500|
+|22123|Voodoo Doll                                                   |  5|Decoration  | $500|
+|22124|Witch Cauldron                                                |  5|Decoration  |$1000|
 |24001|double-pipe scrap iron casing                                 |100|Weapon      |  $60|
 |24002|double-barreled fine iron receiver                            |100|Weapon      | $100|
 |24003|capitalist times's scrap iron barrel                          |100|Damaged BP  | $100|
@@ -914,6 +946,429 @@ Blueprints you have learned are stored in a simple array of Item IDs.
 				15015,15003,15004,15006
 			],
 ```
+
+# 0.5.10 to 0.5.11 Changes
+
+* Updated Item: 3008
+  * **OLD:**  "ResourceName": "Assets/Prefabs/Temp/Temp/B1_Herbal Energy Drink.prefab"
+  * **NEW:** "ResourceName": "Assets/Resources/Items/Food/Modern Food/Energy Drink.prefab"
+
+* Updated Item: 15055
+
+  **OLD:** "ResourceName": ""
+  **NEW:** "ResourceName": "Assets/Resources/Items/Blueprints/4/Blueprint Military Backpack.prefab"
+
+* New Items: 15121, 22097-22124
+
+```
+    "ID": 15121,
+    "ResourceName": "Assets/Resources/Items/Blueprints/Temp/Blueprint Masonry.prefab",
+    "StackaMount": 200,
+    "Price": 100,
+    "RecoveryPrice": 25,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 0,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+
+    "ID": 22097,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Ballons Halloween.prefab",
+    "StackaMount": 5,
+    "Price": 300,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 3,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22098,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Ballons Happy.prefab",
+    "StackaMount": 5,
+    "Price": 300,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 3,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22099,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Black Cat Statue.prefab",
+    "StackaMount": 5,
+    "Price": 2500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 25,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22100,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Broken Tombstone.prefab",
+    "StackaMount": 5,
+    "Price": 1000,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22101,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Candles.prefab",
+    "StackaMount": 5,
+    "Price": 100,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 1,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22102,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Coffin.prefab",
+    "StackaMount": 5,
+    "Price": 1000,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 10,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22103,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Creepy Hand.prefab",
+    "StackaMount": 5,
+    "Price": 1000,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 10,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22104,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Death Statue.prefab",
+    "StackaMount": 5,
+    "Price": 2500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 25,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22105,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Dragon Statue.prefab",
+    "StackaMount": 5,
+    "Price": 2500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 50,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22106,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Goest Decor.prefab",
+    "StackaMount": 5,
+    "Price": 2500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 25,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22107,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/HauntedHalloween.prefab",
+    "StackaMount": 5,
+    "Price": 1000,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 50,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22108,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Large Spider.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 10,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22109,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Neon Ghost.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22110,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Neon Pumpkin.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22111,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Old Candle Holder.prefab",
+    "StackaMount": 5,
+    "Price": 1500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 15,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22112,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Dead.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22113,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Evil.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22114,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Grin.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22115,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Malice.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22116,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Round.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22117,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Sad.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22118,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Short.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22119,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Pumpkin Tall.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22120,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Small Spider.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22121,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Square Tombstone.prefab",
+    "StackaMount": 5,
+    "Price": 1500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22122,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Vampire Statue.prefab",
+    "StackaMount": 5,
+    "Price": 2500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 25,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22123,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Voodoo Doll.prefab",
+    "StackaMount": 5,
+    "Price": 500,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 5,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+  {
+    "ID": 22124,
+    "ResourceName": "Assets/Resources/Items/Decoration Items/Ballons2024/Witch Cauldron.prefab",
+    "StackaMount": 5,
+    "Price": 1000,
+    "RecoveryPrice": 0,
+    "InventionPrice": 0,
+    "recyclingDrops": 0,
+    "toCopper": 10,
+    "ItemType": [
+      0
+    ],
+    "openDrops": 0
+  },
+
+```
+
 
 
 # HOWTO Extract
