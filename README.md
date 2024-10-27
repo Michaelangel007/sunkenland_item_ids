@@ -29,7 +29,7 @@ Since I couldn't find a complete updated table for 0.5 I wrote a program to gene
 
 There are a total items = 16049; stripping off the path in the resource name the maximum resource name length = 62.
 
-| v0.5| Name                                                         |Max|Type        |Price|
+|0.5.11|Name                                                         |Max|Type        |Price|
 |----:|:-------------------------------------------------------------|--:|:-----------|----:|
 |    1|Silver Coins                                                  |100|Goods       | $100|
 |    2|TradeContractItem                                             |  1|Items       |   $1|
